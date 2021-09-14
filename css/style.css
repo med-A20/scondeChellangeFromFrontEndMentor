@@ -35,7 +35,7 @@ body{
 
 .container {
     width: 320px;
-    height: 87%;
+    min-height: 87%;
     background-color: var(--cardBackground);
     overflow: hidden;
     border-radius: 5px;
@@ -146,7 +146,7 @@ p.para {
      }
     .container {
         min-width: 85%;
-        height: 60%;
+        min-height: 60%;
         background-color: var(--cardBackground);
         overflow: hidden;
         border-radius: 5px;
@@ -202,6 +202,6 @@ p.para {
     }
    .container {
        min-width: 75%;
-       height: 57%;
+       min-height: 57%;
    }
 }   
