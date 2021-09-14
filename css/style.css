@@ -19,7 +19,7 @@
 /* font-family: 'Inter', sans-serif; */
 /* *******  end font ***** */
 html{
-    font-size: 15px;
+    font-size: 16px;
 }
 /* =================== Mobile first ================== */
 body{
@@ -34,8 +34,8 @@ body{
 }
 
 .container {
-    width: 300px;
-    height: 95%;
+    width: 320px;
+    height: 87%;
     background-color: var(--cardBackground);
     overflow: hidden;
     border-radius: 5px;
@@ -145,7 +145,7 @@ p.para {
          font-size: 18px;
      }
     .container {
-        min-width: 850px;
+        min-width: 85%;
         height: 60%;
         background-color: var(--cardBackground);
         overflow: hidden;
@@ -195,3 +195,13 @@ p.para {
         display: none;
     }
 }
+
+@media(min-width: 992px){
+    html {
+        font-size: 22px;
+    }
+   .container {
+       min-width: 75%;
+       height: 57%;
+   }
+}   
